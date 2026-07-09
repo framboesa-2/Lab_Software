@@ -19,3 +19,16 @@
 // Sem desconto
 
 // Mostre o total.
+
+let produto = "arroz"
+let preco = 39.9
+let quant = 30
+
+let total = preco * quant
+
+if( total > 500){
+    console.log(`desconto de 15%`);
+}
+else {
+    console.log(`Não tem desconto`);
+}
