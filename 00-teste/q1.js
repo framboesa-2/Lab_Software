@@ -33,6 +33,17 @@ rl.question("Digite o resultado do primeiro dado: ", (dadoUm) => {
 
     //REALIZE O EXERCÍCIO AQUI 🔽
 
+    let soma = dadoUm + dadoDois
+    let dobro = soma * 2
+
+    if(dadoUm != dadoDois){
+      console.log(`O resultado da soma é ${soma}`);
+    }
+    else {
+      console.log(`O resultado da soma é ${dobro}`);
+    }
+
+
 
 
     rl.close();

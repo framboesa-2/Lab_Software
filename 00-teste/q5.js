@@ -48,7 +48,14 @@ rl.question("Digite a primeira carta do jogador: ", (j1) => {
     j2 = Number(j2);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
-
+    let soma = j1 + j2
+    let soma2 = dealer1 + dealer2
+    if(soma > 21){
+      console.log(` a soma das cartas deu ${soma}, o jogador estourou o limite`);
+    }
+    else{
+      console.log(`Jogador venceu! Dealer: ${soma2} | Jogador: ${soma}`);
+    }
     rl.close();
   });
 });

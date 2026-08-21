@@ -33,6 +33,13 @@ rl.question("Digite a quantidade de piratas: ", (piratas) => {
     ouro = Number(ouro);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+    if(ouro + piratas > 100){
+      console.log("foi um fracasso")
+
+    }
+    else {
+      console.log ("A pirataria foi um sucesso")
+    }
 
     rl.close();
   });

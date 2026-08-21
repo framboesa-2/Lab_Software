@@ -58,6 +58,7 @@ rl.question("Digite o valor da compra em centavos: ", (a) => {
     b = Number(b);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+    let gorjeta = a 
 
     rl.close();
   });
