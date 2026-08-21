@@ -13,4 +13,4 @@
 
 let peso = 59.00
 let altura = 1.73
-console.log(`O peso da pessoa analisadea é ${peso} e sua altura ${altura}, seu IMC é igual a ${peso / (altura * altura)}`)
+console.log(`O peso da pessoa analisada é ${peso} e sua altura ${altura}, seu IMC é igual a ${peso / (altura * altura)}`)
